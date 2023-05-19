@@ -144,6 +144,33 @@
 
 
 </div>
+
+<h3 class="card-heading"> 5. Mustang </h3>
+<!-- <div class="position-relative">  -->
+
+<div class="card-body">
+	
+		    <p>
+				
+		      		5 out of 20 <br> Places to visit in Nepal
+				
+				
+		      
+		        <span class="divider"> </span>
+		        9 <br> Tourist attractions
+		      
+		    </p>
+		  
+	
+	
+		<p class="card-text"> Mustang is one of the best tourist attraction places in Nepal. </p>
+	
+
+
+<p class="mb-3"><b>Best Time: </b> September to March </p> 
+
+
+</div>
       
       
       <div class="row">
