@@ -141,8 +141,9 @@ h4, .h4 {
 }
 
 .background{
-  background-image: url(../images/Dashboard-image.jpg);
-  background-size: 100%;
+  /* background-image: url(../images/Dashboard-image.jpg);
+  background-size: 100%; */
+  background-color: red;
 }
 
 h5, .h5 {
@@ -11305,4 +11306,42 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+.places{
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+ background-color: grey;
+ padding: 20px;
+ margin-bottom: 2px;
+}
+.images-size{
+  width: 100px;
+}
+
+.images{
+  width:  500px;
+  height: 00px;
+  object-fit: cover;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  font-size: 20px;
+  color: white;
+}
+
+.heading-title{
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.heading-desc{
+  text-align: center;
+}
+#carouselExampleIndicators{
+  width: 500px;
 }

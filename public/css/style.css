@@ -37,6 +37,7 @@ html {
 body {
      color: #666666;
      background-image: url(../images/Dashboard-image.jpg);
+
      background-size: 100%;
      font-size: 14px;
      font-family: poppins;
@@ -1646,6 +1647,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 .banner-main {
      position: relative;
+     margin-top: -25px;
+    
 }
 .banner-main .text-bg h1 {
      font-size: 90px;

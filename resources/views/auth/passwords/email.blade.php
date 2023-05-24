@@ -25,7 +25,7 @@
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <strong> {{ Auth::user()->name }} {{ $message }}</strong>
                                     </span>
                                 @enderror
                             </div>
