@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MapController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NavigationController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +24,9 @@ return redirect('/home');
 });
 
 Auth::routes();
+
+//Places
+Route::get('/destination', [HomeController::class, 'destination'])->name('destination');
 
 // route for admin
 Route::group(['middleware' => ['admin','web']], function () {
@@ -67,4 +74,14 @@ Route::get('/travel', [App\Http\Controllers\HomeController::class, 'travel'])->n
 
 
 Route::get('/invoice/{flight}', [App\Http\Controllers\FlightController::class, 'invoice'])->name('invoice.show');
+
+
+//Google Maps
+
+Route::get('/map', [MapController::class, 'initMap'])->name('map');
+Route::post('/navigate', [NavigationController::class, 'navigate'])->name('navigation.navigate');
+// Route::get('/recommend-places', [MapController::class, 'recommendPlaces'])->name('recommend-places');
+
+
+
 

@@ -20,6 +20,11 @@ class HomeController extends Controller
         $this->middleware('auth');
     }
 
+    public function destination()
+    {
+        return view('destination');
+    }
+
     /**
      * Show the application dashboard.
      *

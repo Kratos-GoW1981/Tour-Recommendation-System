@@ -65,7 +65,7 @@
                 <div class="navbar-header" data-logobg="skin6">
                     <a class="navbar-brand ms-4" href="/home">
                         <b class="logo-icon">
-                            <img src="img/RCB white.png" alt="Flight Management" class="dark-logo" height="60px" width="80px;" />
+                            <img src="/images/logo.png" alt="TourSensei" class="dark-logo" height="60px" width="80px;" />
                         </b>
                     </a>
                     

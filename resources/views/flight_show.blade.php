@@ -96,7 +96,11 @@
                         </div>
                         
                         <div class="col-12">
-                            <button class =" btn btn-primary mb-3" type="submit ">Pay:<span class="total"></span></button>
+                            <button class =" btn btn-primary mb-3" type="submit " id="paymentButton">Pay:<span class="total"></span></button>
+                            <div id="successMessage" style="display: none;">
+        <h2>Payment Successful!</h2>
+        <p>Thank you for your payment.</p>
+    </div>
                         </div>
                     </div>
                 </div>
@@ -177,6 +181,26 @@
 
 
 @endif -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the payment button and success message element
+    var paymentButton = document.getElementById('paymentButton');
+    var successMessage = document.getElementById('successMessage');
+
+    // Add a click event listener to the payment button
+    paymentButton.addEventListener('click', function() {
+        // Show the success message
+        successMessage.style.display = 'block';
+
+         // Hide the success message after 3 seconds (adjust the duration as needed)
+         setTimeout(function() {
+            successMessage.style.display = 'none';
+        }, 5000); // 3000 milliseconds = 3 seconds
+    });
+});
+
+    </script>
 
 
 <script>

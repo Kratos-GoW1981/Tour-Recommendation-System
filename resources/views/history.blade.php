@@ -10,7 +10,7 @@
                <div class="col-md-12 ">
                   <div class="titlepage">
                      <h2>Your Travelling Flight History is</h2>
-                     <span>Welcome to Flight Management System</span> 
+                     <span>Welcome to Online Travel and Tour System</span> 
                   </div>
                </div>
             </div>

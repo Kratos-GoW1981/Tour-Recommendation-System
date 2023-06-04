@@ -36,12 +36,12 @@
 
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
                 <label >Total Seat</label>
-                <input class="form-control" value="{{ $flight->total_seats }}" placeholder="Any" type="text" name="Any">
+                <input class="form-control" value="{{ $flight->total_seats }}" placeholder="Any" type="text" name="Any" readonly>
             </div>
 
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
                 <label >Price per Seat</label>
-                <input class="form-control"value="{{ $flight->price }}" placeholder="00.0" type="text" name="00.0">
+                <input class="form-control"value="{{ $flight->price }}" placeholder="00.0" type="text" name="00.0" readonly>
             </div>
         </div>
     </div>

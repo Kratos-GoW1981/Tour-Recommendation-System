@@ -105,7 +105,7 @@ margin-top:20px;
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 text-right">
 						<div class="receipt-right">
-							<h5>Flight Management System</h5>
+							<h5>Online Travel and Tour System</h5>
 							<p>+977 9822288882<i class="fa fa-phone"></i></p>
 							<p>flight@gmail.com <i class="fa fa-envelope-o"></i></p>
 							<p>Nepal<i class="fa fa-location-arrow"></i></p>
